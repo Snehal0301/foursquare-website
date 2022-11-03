@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 123px;
+    margin-top: 20px;
+    border-bottom: 1px solid #9797972d;
+}
+
+.hotel-details {
+    display: flex;
+
+    .hotel-about {
+        margin-left: 25px;
+
+        .hotel-title {
+            color: #2956E7;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .hotel-para {
+            color: #959BA4;
+            line-height: 21px;
+            font-size: 14px;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+
+.hotel-details img {
+    height: 101px;
+    width: 101px;
+}
+
+.rating-box {
+    background-color: #F5A623;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+}
