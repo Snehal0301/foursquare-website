@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({ details, index }: any) => {
+const Card = ({ details, index}: any) => {
 
     return (
         <div className="card">
